@@ -1,0 +1,34 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Varela+Round&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  font-family: "Roboto Mono", monospace;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background: black;
+  color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand {
+  display: flex;
+
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
